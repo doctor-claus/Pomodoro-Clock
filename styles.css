@@ -1,0 +1,127 @@
+body{
+	background-color: #EC4230;
+	font-weight: bold;
+	font-family: 'Jura', sans-serif;
+	color: white;
+}
+.time{
+	position: absolute;
+	margin-left: 575px;
+	margin-top: 100px;
+	background-color: black;
+	border-radius: 100%;
+	color: white;
+	height: 200px;
+	width: 200px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 2.5em;
+}
+.session{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 100px;
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+.break{
+	position: relative;
+	margin-left: 830px;
+	margin-top: 100px;
+	background-color: black;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	height: 100px;
+	width: 100px;
+	top: 150px;
+	left: 100px;
+}
+i{
+	border: solid black;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 10px;
+}
+.arrow1{
+	position: relative;
+	transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 375px;
+    top: 170px;
+}
+.arrow2{
+	position: relative;
+	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 475px;
+    top: 170px;
+}
+.arrow3{
+	position: relative;
+	transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 900px;
+    top: 320px;	
+}
+.arrow4{
+	position: relative;
+	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 1035px;
+    top: 90px;	
+}
+#ST{
+	position: absolute;
+	left: 360px;
+	top: 50px;
+}
+#BT{
+	position: absolute;
+	left: 900px;
+	top: 200px;
+}
+#timer{
+	position: absolute;
+	left: 640px;
+	top: 320px;
+}
+.start{
+	position: relative;
+	color: white;
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 13px;
+	left: 650px;
+	bottom: 50px;
+}
+.reset{
+	position: fixed;
+	color: white;
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 13px;
+	left: 655px;
+	top: 500px;
+	opacity: 0;
+}
+p{
+	position: absolute;
+	left: 800px;
+	font-size: 1.5em;
+	font-weight: none;
+	font-family: 'Julius-Sans-One', sans-serif;
+}
+
